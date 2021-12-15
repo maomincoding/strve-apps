@@ -2,7 +2,7 @@
 
 Application template based on Strve.js project.
 
-## Project etup
+## Project setup
 ```
 yarn install
 ```
