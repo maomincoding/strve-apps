@@ -1,8 +1,8 @@
-# viteStrve
+# StrveApps
 
 Project framework based on strve.js.
 
-## Project setup
+## Project etup
 ```
 yarn install
 ```
