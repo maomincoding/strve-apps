@@ -1,6 +1,6 @@
 # StrveApps
 
-Project framework based on strve.js.
+Application template based on Strve.js project.
 
 ## Project etup
 ```
