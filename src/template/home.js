@@ -5,11 +5,11 @@ export const state = {
     msg: "hello"
 }
 
-function Home() {
-    return render`
+export default function Home() {
+    return render/*html*/`
         <div>
-            <button onclick="${goAbout}">goAbout</button>
-            <h1 onclick="${useChange}">Home1</h1>
+            <button onClick="${goAbout}">goAbout</button>
+            <h1 onClick="${useChange}">Home1</h1>
             <p>{state.msg}</p>
         </div>
     `
@@ -30,5 +30,3 @@ function useChange(){
         state.msg = 'world';
     })
 }
-
-export default Home

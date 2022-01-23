@@ -2,9 +2,9 @@ import { render,updateView } from 'strvejs'
 import strveRouter from '../router/index.js'
 
 function About(){
-    return render`
+    return render/*html*/`
         <div>
-            <button onclick="${goHome}">goHome</button>
+            <button onClick="${goHome}">goHome</button>
             <h1>About11</h1>
         </div>
     `
